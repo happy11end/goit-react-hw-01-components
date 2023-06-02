@@ -28,8 +28,8 @@ FriendList.propTypes = {
     name: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
     isOnline: PropTypes.bool.isRequired,
-  })
-  )
+  }).isRequired
+  ).isRequired,
 };
 
 
